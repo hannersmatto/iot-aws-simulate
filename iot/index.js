@@ -29,7 +29,7 @@ exports.handler = (event, context) => {
         return;
     }
     const s3 = new AWS.S3({
-      region: 'us-west-2'
+      region: 'ap-southeast-2'
     });
 
     index_name = data.index;
@@ -99,7 +99,7 @@ function createMqttClient(connectOpts, simOpts, mqttController, jsonData, contex
   }
 
   function onMessageArrived(data) {
-    // do nothing
+	  console.log(`Message Arrived ${data}.`);
   }
 
   function onSubSuccess() {
