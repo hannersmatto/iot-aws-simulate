@@ -5,6 +5,6 @@
   "simTime": 10000,
   "interval": 500,
   "numDevice": 3,
-  "key" : "physiological-data.csv"
+  "key" : "physiological-data.csv"'
   "bucketName" : "teskasoft"
  }
