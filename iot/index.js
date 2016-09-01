@@ -113,7 +113,7 @@ function createMqttClient(connectOpts, simOpts, mqttController, jsonData, contex
       clearInterval(interval);
       clientController.disconnect();
       setTimeout(() => {          // set drain time to disconnect all connections
-        console.log(`Simulation completed. See the results in Elasticsearch under index ${index_name}.`);
+        console.log(`Simulation completed here. See the results in Elasticsearch under index ${index_name}.`);
         context.succeed();
       }, 1000);
     }, simOpts.simTime);

@@ -1,10 +1,10 @@
 {
-  "esEndpoint": "search-my-iot-elastic-1ubx76h2qqoan-3dijocbhik332asd4sryz4au5q.us-west-2.es.amazonaws.com",
-  "esDomainArn": "arn:aws:es:us-west-2:111122223333:domain/my-iot-elastic-1ubxg6r2qwean",
+  "esEndpoint": "search-iotstac-elasti-17co1lzdo6fpu-icu3okmjpxrpft7vxxoakz7yzu.ap-southeast-2.es.amazonaws.com",
+  "esDomainArn": "arn:aws:es:ap-southeast-2:780462998777:domain/iotstac-elasti-17co1lzdo6fpu",
   "topic": "test/topic",
   "simTime": 10000,
   "interval": 500,
   "numDevice": 3,
-  "key" : "physiological-data.csv"'
+  "key" : "physiological-data.csv",
   "bucketName" : "teskasoft"
  }
