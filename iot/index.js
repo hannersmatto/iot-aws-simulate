@@ -3,7 +3,7 @@ const createResources = require('./createResources.js');
 const AWS = require('aws-sdk');
 const async = require('async');
 
-const bucketName = 'iot-us-west-2-simulator-publicbucket';
+const bucketName = '';
 const objectKey = 'physiological-data.csv';
 
 var index_name;
